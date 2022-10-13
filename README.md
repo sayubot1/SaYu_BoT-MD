@@ -1,7 +1,7 @@
 <p align="center">
-    <img src="https://telegra.ph/file/7ff09176639655a9fb919.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <img src="https://telegra.ph/file/26cc73c744897622ff45c.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
-<h1 align="center">FangzBOT - MD</h1>
+<h1 align="center">SaYu_BoT-MDBOT - MD</h1>
 <p align="center">
   <a href="https://github.com/Fangzbotz2007"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Fangz+BOT+Multi+Device;Base+ori+by+BochilGaming;Recode+By+Fangz;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="UwU">
 </p>
@@ -43,7 +43,7 @@
 [![GROUP OFFICIAL](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/HpxyS6b45SoGIKG7LHddiM) 
 ---------
 
-#### KELEBIHAN 📍
+#### ADVANTAGE 📍
 | Kelebihan | Check |
 |--------|--------|
 | **Fast Respon** |[✔️](https://github.com/Fangzbotz2007) |
@@ -52,7 +52,7 @@
 | **Button template** |[✔️](https://github.com/Fangzbotz2007) |
 | **Multi Device** |[✔️](https://github.com/Fangzbotz2007) |
 ---------
-#### FITUR 📍
+#### FEATURE 📍
 | Fitur | Check |
 |--------|--------|
 | **Downloader** |[✔️](https://github.com/Fangzbotz2007) |
@@ -142,121 +142,3 @@ npm update
 ```
 
 ---------
-
-## FOR WINDOWS/VPS/RDP USER 💻
-
-* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
-* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
-* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
-* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
-
-```bash
-git clone https://github.com/Fangzbotz2007/FangzBOT-MD
-cd FangzBOT-MD-master
-npm install
-npm update
-```
-
----------
-
-## Run 📛
-
-```bash
-node .
-```
-
----------
-
-## ```Arguments node . [--options] [<session name>]```
-
-## `--self`
-* Activate self mode (Ignores other)
-
-## `--pconly`
-* If that chat not from private bot, bot will ignore
-
-## `--gconly`
-* If that chat not from group, bot will ignore
-
-## `--swonly`
-* If that chat not from status, bot will ignore
-
-## `--prefix <prefixes>`
-* `prefixes` are seperated by each character
-Set prefix
-
-## `--server`
-* Used for [heroku](https://heroku.com/) or scan through website
-
-## `--restrict`
-* Enables restricted plugins (which can lead your number to be **banned** if used too often)
-* Group Administration `add, kick`
-
-## `--img`
-* Enable image inspector through terminal
-
-## `--autoread`
-* If enabled, all incoming messages will be marked as read
-
-## `--nyimak`
-* No bot, just print received messages and add users to database
-
-## `--test`
-* **Development** Testing Mode
-
----------
-
-## ```How To Customise Message Display```
-```js
-// Syntax
-conn.sendButton(
-      jid, // jid of the user to send the message to
-      text, // text to send
-      foooter, // footer to send
-      buffer, // buffer to send (optional), if you want to send button image, location, etc
-      buttons, // buttons to send, example [['text1', 'id1'], ['text2', 'id2']]
-      quoted, // quoted message to send (optional)
-      options // options to send, example { asLocation: true }
-)
-
-// example 
-conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', null, [
-      ['Hello', 'hello'], ['Bye', 'bye']
-])
-// example button location
-conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/BochilGaming', 
-      [['Hello', 'hello'], ['Bye', 'bye']], 
-      null, { asLocation: true }
-)
-```
----------
-
-### 📮 S&K
-1. Jangan diperjual belikan Script ini
-2. Sebelum pakai jangan lupa kasih star
-3. Follow Github !
-4. Jangan salah gunakan script ini!
-5. Jangan lupa Subscribe Youtube
-6. Jika ada eror di sc hub Fangz
-
----------
-
-
-## ```Thanks to ✨```
-* [`Allah SWT`](https://github.com/Fangzbotz2007)
-* [`My parents`](https://github.com/Fangzbotz2007)
-* [`All Friends`](https://github.com/Fangzbotz2007)
-* [`All Contributors`](https://github.com/Fangzbotz2007)
-* [`All Creator Bot`](https://github.com/Fangzbotz2007)
-* [`Adiwajshing`](https://github.com/adiwajshing/Baileys)
-* [`Nurutomo`](https://github.com/nurutomo)
-* [`BochilGaming`](https://github.com/bochilgaming)
-
-## ```Recode By 💌```
-[![Fangz BOT](https://github.com/Fangzbotz2007.png?size=100)](https://github.com/Fangzbotz2007)
-
-## ```Contributor 📣```
-* [`The.Sad.Boy01`](https://github.com/Kangsad01)
-* [`AmirulDev20`](https://github.com/amiruldev20)
-* [`Rasel Comel`](https://github.com/raselcomel)
-* [`Rominaru`](https://github.com/rominaru)
